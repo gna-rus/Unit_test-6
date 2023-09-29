@@ -28,11 +28,11 @@ class AverageValueInList:
             return AssertionError
 
     def CompareTwoList(self):
-        if (self.AverageList1() > self.AverageList2()):
+        if self.AverageList1() > self.AverageList2():
             return "Первый список имеет большее среднее значение"
-        elif (self.AverageList1() < self.AverageList2()):
+        elif self.AverageList1() < self.AverageList2():
             return "Второй список имеет большее среднее значение"
-        elif (self.AverageList1() == self.AverageList2()):
+        elif self.AverageList1() == self.AverageList2():
             return "Средние значения равны"
         else:
             return "Error!"

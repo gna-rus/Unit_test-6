@@ -3,6 +3,7 @@ import pytest
 
 from AverageValueInList import AverageValueInList
 
+
 class TestAverageValueInList(TestCase):
     listTest1 = AverageValueInList([1, 2, 3], [5, 7, 9])
     listTest2 = AverageValueInList("[1, 2, 3]", [1.2, 3.4, 5.6])
