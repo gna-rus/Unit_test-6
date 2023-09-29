@@ -6,13 +6,21 @@
 collecting ... collected 8 items
 
 test.py::TestAverageValueInList::test_AverageList1 PASSED                [ 12%]
+
 test.py::TestAverageValueInList::test_AverageList1Null PASSED            [ 25%]
+
 test.py::TestAverageValueInList::test_AverageList1STR PASSED             [ 37%]
+
 test.py::TestAverageValueInList::test_AverageList2 PASSED                [ 50%]
+
 test.py::TestAverageValueInList::test_AverageList2Float PASSED           [ 62%]
+
 test.py::TestAverageValueInList::test_AverageListMore1 PASSED            [ 75%]
+
 test.py::TestAverageValueInList::test_AverageListMore2 PASSED            [ 87%]
+
 test.py::TestAverageValueInList::test_AverageListsSame PASSED            [100%]
+
 
 ============================== 8 passed in 0.06s ==============================
 
