@@ -4,16 +4,22 @@ class AverageValueInList:
         self.list2 = list2
 
     def AverageList1(self):
-        value = 0
-        for i in self.list1:
-            value += i
-        return value/len(self.list1)
+        try:
+            value = 0
+            for i in self.list1:
+                value += i
+            return value / len(self.list1)
+        except:
+            return AssertionError
 
     def AverageList2(self):
-        value = 0
-        for i in self.list2:
-            value += i
-        return value/len(self.list2)
+        try:
+            value = 0
+            for i in self.list2:
+                value += i
+            return value / len(self.list2)
+        except:
+            return AssertionError
 
     def CompareTwoList(self):
         if (self.AverageList1() > self.AverageList2()):
