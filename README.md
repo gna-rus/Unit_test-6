@@ -16,6 +16,7 @@ AverageValueInList.py:31:8: R1705: Unnecessary "elif" after "return", remove the
 
 
 Таже самое было проделано и по отношению к тестам. Была введена команды "pylint test.py" и в результате был сформирован отчет:
+
 test.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 test.py:7:0: C0115: Missing class docstring (missing-class-docstring)
 test.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
