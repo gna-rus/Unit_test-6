@@ -15,7 +15,6 @@ class TestAverageValueInList(TestCase):
     def test_AverageList1(self):
         assert self.listTest1.AverageList1() == 2
 
-
     # тест на поиск среднего в 2 списке
     def test_AverageList2(self):
         assert self.listTest1.AverageList2() == 7
