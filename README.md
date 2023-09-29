@@ -1,6 +1,7 @@
 # Unit_test-6
 ## Отчет покрытия тестами
 
+
 ============================= test session starts =============================
 collecting ... collected 8 items
 
@@ -14,6 +15,8 @@ test.py::TestAverageValueInList::test_AverageListMore2 PASSED            [ 87%]
 test.py::TestAverageValueInList::test_AverageListsSame PASSED            [100%]
 
 ============================== 8 passed in 0.06s ==============================
+
+
 ## После написания команды "pylint AverageValueInList.py" в терминале был получен следующий отчет:
 
 AverageValueInList.py:1:0: C0114: Missing module docstring (missing-module-docstring)
