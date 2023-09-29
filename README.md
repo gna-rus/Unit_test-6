@@ -1,5 +1,6 @@
 # Unit_test-6
-##Отчет покрытия тестами
+## Отчет покрытия тестами
+
 ============================= test session starts =============================
 collecting ... collected 8 items
 
@@ -13,7 +14,7 @@ test.py::TestAverageValueInList::test_AverageListMore2 PASSED            [ 87%]
 test.py::TestAverageValueInList::test_AverageListsSame PASSED            [100%]
 
 ============================== 8 passed in 0.06s ==============================
-##После написания команды "pylint AverageValueInList.py" в терминале был получен следующий отчет:
+## После написания команды "pylint AverageValueInList.py" в терминале был получен следующий отчет:
 
 AverageValueInList.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 AverageValueInList.py:1:0: C0103: Module name "AverageValueInList" doesn't conform to snake_case naming style (invalid-name)
@@ -29,7 +30,7 @@ AverageValueInList.py:30:4: C0103: Method name "CompareTwoList" doesn't conform 
 AverageValueInList.py:31:8: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
 
 
-##Таже самое было проделано и по отношению к тестам. Была введена команды "pylint test.py" и в результате был сформирован отчет:
+## Таже самое было проделано и по отношению к тестам. Была введена команды "pylint test.py" и в результате был сформирован отчет:
 
 test.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 test.py:7:0: C0115: Missing class docstring (missing-class-docstring)
