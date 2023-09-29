@@ -3,13 +3,12 @@ import pytest
 
 from AverageValueInList import AverageValueInList
 
-
 class TestAverageValueInList(TestCase):
     listTest1 = AverageValueInList([1, 2, 3], [5, 7, 9])
     listTest2 = AverageValueInList("[1, 2, 3]", [1.2, 3.4, 5.6])
     listTestNull = AverageValueInList([], [])
     listTestMore2 = AverageValueInList([5, 7, 9], [1, 2, 3])
-    listTestSame = AverageValueInList([5, 7, 9,11,13], [5, 7, 9,11,13])
+    listTestSame = AverageValueInList([5, 7, 9, 11, 13], [5, 7, 9, 11, 13])
 
     # тест на поиск среднего в 1 списке
     def test_AverageList1(self):
@@ -28,7 +27,7 @@ class TestAverageValueInList(TestCase):
     def test_AverageList2Float(self):
         assert self.listTest2.AverageList2() == 3.4
 
-    #негативный тест на ввод пустого списка
+    # негативный тест на ввод пустого списка
     def test_AverageList1Null(self):
         with pytest.raises(AssertionError):
             assert self.listTestNull.AverageList1() == 0
@@ -44,14 +43,3 @@ class TestAverageValueInList(TestCase):
     # Тест на корректный вывод когда средние значения равны
     def test_AverageListsSame(self):
         assert self.listTestSame.CompareTwoList() == "Средние значения равны"
-
- 
-
-
-
-
-
-
-
-
-

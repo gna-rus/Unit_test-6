@@ -36,4 +36,3 @@ class AverageValueInList:
             return "Средние значения равны"
         else:
             return "Error!"
-
