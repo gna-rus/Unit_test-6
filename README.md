@@ -2,12 +2,12 @@
 
 ## Проводились следующие тесты:
 <u>test_AverageList1 и test_AverageList2</u> - два теста на проверку корректности  определения среднего значения у каждого из двух переданных списков<br/>
-<u>test_AverageList1STR</u> - тест по которому в функцию передана коллекция типа String. Инициализирует ошибку "AssertionError"
-<u>test_AverageList2Float</u> - тест по которому в функцию передается список float значений и проверяется корректность возвращаемого среднего значения
-<u>test_AverageList1Null</u> - тест по которому в функцию передают пустой список. Инициализирует ошибку "AssertionError"
-<u>test_AverageListMore2</u> - тест по которому проверяется что корректно будет выведена в консоль фраза: "Второй список имеет большее среднее значение"
-<u>test_AverageListMore1</u> - тест по которому проверяется что корректно будет выведена в консоль фраза: "Первый список имеет большее среднее значение"
-<u>test_AverageListsSame</u> - тест по которому проверяется что корректно будет выведена в консоль фраза: "Средние значения равны"
+<u>test_AverageList1STR</u> - тест по которому в функцию передана коллекция типа String. Инициализирует ошибку "AssertionError"<br/>
+<u>test_AverageList2Float</u> - тест по которому в функцию передается список float значений и проверяется корректность возвращаемого среднего значения<br/>
+<u>test_AverageList1Null</u> - тест по которому в функцию передают пустой список. Инициализирует ошибку "AssertionError"<br/>
+<u>test_AverageListMore2</u> - тест по которому проверяется что корректно будет выведена в консоль фраза: "Второй список имеет большее среднее значение"<br/>
+<u>test_AverageListMore1</u> - тест по которому проверяется что корректно будет выведена в консоль фраза: "Первый список имеет большее среднее значение"<br/>
+<u>test_AverageListsSame</u> - тест по которому проверяется что корректно будет выведена в консоль фраза: "Средние значения равны"<br/>
 
 ## Отчет покрытия тестами
 
@@ -37,18 +37,18 @@ test.py::TestAverageValueInList::test_AverageListsSame PASSED            [100%]
 
 ## После написания команды "pylint AverageValueInList.py" в терминале был получен следующий отчет:
 
-AverageValueInList.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-AverageValueInList.py:1:0: C0103: Module name "AverageValueInList" doesn't conform to snake_case naming style (invalid-name)
-AverageValueInList.py:1:0: C0115: Missing class docstring (missing-class-docstring)
-AverageValueInList.py:6:4: C0116: Missing function or method docstring (missing-function-docstring)
-AverageValueInList.py:6:4: C0103: Method name "AverageList1" doesn't conform to snake_case naming style (invalid-name)
-AverageValueInList.py:13:12: W0702: No exception type(s) specified (bare-except)
-AverageValueInList.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
-AverageValueInList.py:18:4: C0103: Method name "AverageList2" doesn't conform to snake_case naming style (invalid-name)
-AverageValueInList.py:25:12: W0702: No exception type(s) specified (bare-except)
-AverageValueInList.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
-AverageValueInList.py:30:4: C0103: Method name "CompareTwoList" doesn't conform to snake_case naming style (invalid-name)
-AverageValueInList.py:31:8: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+AverageValueInList.py:1:0: C0114: Missing module docstring (missing-module-docstring)<br/>
+AverageValueInList.py:1:0: C0103: Module name "AverageValueInList" doesn't conform to snake_case naming style (invalid-name)<br/>
+AverageValueInList.py:1:0: C0115: Missing class docstring (missing-class-docstring)<br/>
+AverageValueInList.py:6:4: C0116: Missing function or method docstring (missing-function-docstring)<br/>
+AverageValueInList.py:6:4: C0103: Method name "AverageList1" doesn't conform to snake_case naming style (invalid-name)<br/>
+AverageValueInList.py:13:12: W0702: No exception type(s) specified (bare-except)<br/>
+AverageValueInList.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)<br/>
+AverageValueInList.py:18:4: C0103: Method name "AverageList2" doesn't conform to snake_case naming style (invalid-name)<br/>
+AverageValueInList.py:25:12: W0702: No exception type(s) specified (bare-except)<br/>
+AverageValueInList.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)<br/>
+AverageValueInList.py:30:4: C0103: Method name "CompareTwoList" doesn't conform to snake_case naming style (invalid-name)<br/>
+AverageValueInList.py:31:8: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)<br/>
 
 
 ## Таже самое было проделано и по отношению к тестам. Была введена команды "pylint test.py" и в результате был сформирован отчет:
